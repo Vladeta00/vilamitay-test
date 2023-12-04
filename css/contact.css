@@ -1,0 +1,88 @@
+/* CONTACT */
+
+.contact {
+  background-color: var(--color-1);
+
+  padding-bottom: 10rem;
+}
+
+.contact-logo {
+  width: 60rem;
+  height: 60rem;
+}
+
+.contact-container {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-logo {
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-3);
+  font-family: var(--font-3);
+}
+
+.contact-socials {
+  display: flex;
+  gap: 2rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-social {
+  width: 4rem;
+  height: 4rem;
+}
+
+.contact-at {
+  font-size: var(--font-size-15);
+  font-weight: 800;
+
+  margin-bottom: 5rem;
+}
+
+.contact-number__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-phone {
+  font-size: var(--font-size-15);
+  font-weight: 800;
+}
+
+.contact-email {
+  font-size: var(--font-size-15);
+  margin-bottom: 5rem;
+}
+
+.contact-address {
+  text-align: center;
+  font-size: var(--font-size-15);
+  font-weight: 800;
+
+  margin-bottom: 10rem;
+}
+
+.google-maps {
+  height: 60rem;
+  width: 120rem;
+  border: 0.5rem solid var(--color-3);
+}

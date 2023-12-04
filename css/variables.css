@@ -1,0 +1,48 @@
+/* GLOBAL VARIABLES */
+
+:root {
+  /* FONTS */
+  --font-1: "Helvetica";
+  --font-2: "MinionPro-Regular";
+  --font-3: "SukhumvitSet";
+  --font-4: "AlexBrush-Regular";
+
+  /* FONT SIZE */
+  --font-size-1: 0.6rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.2rem;
+  --font-size-4: 1.4rem;
+  --font-size-5: 1.6rem;
+  --font-size-6: 1.8rem;
+  --font-size-7: 2rem;
+  --font-size-8: 2.2rem;
+  --font-size-9: 2.4rem;
+  --font-size-10: 2.6rem;
+  --font-size-11: 2.8rem;
+  --font-size-12: 3rem;
+  --font-size-13: 3.6rem;
+  --font-size-14: 4.2rem;
+  --font-size-15: 5rem;
+  --font-size-16: 6rem;
+  --font-size-17: 7.2rem;
+  --font-size-18: 8rem;
+  --font-size-19: 9rem;
+  --font-size-20: 10rem;
+
+  /* COLORS */
+  /* --font-color-1: #417254; */
+  --color-1: #417254;
+  /* --color-2: #b65445; */
+  --color-2: #af3e2e;
+  --color-3: #fff;
+  --color-4: #dcd2a7;
+  /* --color-5: #000; */
+
+  /* shadows */
+  --shadow-1: 0.28rem 0.28rem 0.22rem rgba(0, 0, 0, 0.02),
+    0.67rem 0.67rem 0.53rem rgba(0, 0, 0, 0.028),
+    1.25rem 1.25rem 1rem rgba(0, 0, 0, 0.035),
+    2.23rem 2.23rem 1.79rem rgba(0, 0, 0, 0.042),
+    4.18rem 4.18rem 3.34rem rgba(0, 0, 0, 0.05),
+    10rem 10rem 8rem rgba(0, 0, 0, 0.07);
+}

@@ -1,0 +1,157 @@
+/* COMMON AREAS */
+
+.commonareas {
+  background-color: var(--color-1);
+
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.commonareas-text__box {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.commonareas-title {
+  font-size: var(--font-size-17);
+  font-family: var(--font-4);
+  color: var(--color-3);
+  font-weight: 300;
+  line-height: 0.8;
+
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.commonareas-text {
+  font-size: var(--font-size-9);
+  font-family: var(--font-3);
+  font-weight: 800;
+  color: var(--color-3);
+
+  /* text-align: center; */
+  margin-bottom: 5rem;
+}
+
+/* ICONS */
+
+.commmonareas-icons {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-bottom: 5rem;
+}
+
+.commonareas-icon__item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.commonareas-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.commonareas-icon__text {
+  font-size: var(--font-size-6);
+  font-family: var(--font-3);
+  font-weight: 400;
+  color: var(--color-3);
+}
+
+/* COMMON AREA GALLERY */
+
+.commonare-gallery__box {
+  margin-bottom: 5rem;
+}
+
+.owl-commonarea .owl-stage .owl-item a img {
+  width: 30rem;
+  height: 30rem;
+  border: 0.3rem solid var(--color-3);
+  object-fit: cover;
+}
+
+.owl-commonarea .owl-nav {
+  position: relative;
+  /* top: 0;
+  right: 0; */
+}
+
+.owl-commonarea .owl-nav .owl-next {
+  position: absolute;
+  bottom: 12rem;
+  right: -4.5rem;
+}
+
+.owl-commonarea .owl-nav .owl-prev {
+  position: absolute;
+  bottom: 12rem;
+  left: -6.5rem;
+}
+
+.owl-commonarea .owl-nav .owl-next,
+.owl-commonarea .owl-nav .owl-prev {
+  width: 4rem;
+  height: 4rem;
+}
+
+.owl-commonarea .owl-nav .owl-next,
+.owl-commonarea .owl-nav .owl-prev {
+  background: none !important;
+  outline: none !important;
+  opacity: 1;
+}
+
+.owl-commonarea .owl-nav .owl-next:hover,
+.owl-commonarea .owl-nav .owl-prev:hover {
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.owl-commonarea .owl-nav {
+  margin: 0;
+}
+
+/* common area pets */
+
+.commonarea__center {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.commonarea-titleboth {
+  line-height: 1.15;
+
+  margin-bottom: 2.5rem;
+}
+
+.commonarea-pet__title {
+  font-size: var(--font-size-11);
+  font-family: var(--font-3);
+  font-weight: 800;
+  color: var(--color-3);
+}
+
+.commonarea-pet__undertitle {
+  font-size: var(--font-size-6);
+  font-family: var(--font-3);
+  font-weight: 400;
+  color: var(--color-3);
+}
+
+.commonarea-pet__text {
+  font-size: var(--font-size-6);
+  font-family: var(--font-3);
+  font-weight: 800;
+  color: var(--color-3);
+  letter-spacing: 0.05rem;
+}

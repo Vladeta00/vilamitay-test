@@ -1,0 +1,134 @@
+/* REVIEWS SECTION */
+
+.reviews {
+  background-color: var(--color-3);
+
+  height: 160rem;
+}
+
+.reviews-centering__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.reviews-title {
+  font-size: var(--font-size-18);
+  font-family: var(--font-4);
+  font-weight: 400;
+  color: var(--color-2);
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+.reviews-text {
+  font-size: var(--font-size-11);
+  font-family: var(--font-1);
+  font-weight: 800;
+  color: var(--color-1);
+  margin-bottom: 10rem;
+}
+
+/* REVIEW CARD AND THE GALLERY */
+.review-card {
+  background-color: var(--color-4);
+  padding: 10rem 4rem 4rem 4rem;
+  border-radius: 3rem;
+  max-width: 43rem;
+
+  position: relative;
+
+  /* box-shadow: var(--shadow-1); */
+}
+
+/* .review-photo {
+  position: absolute;
+  width: 16rem !important;
+  height: 16rem !important;
+  border-radius: 50%;
+  border: 0.3rem solid var(--color-2);
+  top: -17.5%;
+  left: 30%;
+} */
+
+.review-photo {
+  position: absolute;
+  width: 16rem !important;
+  height: 16rem !important;
+  border-radius: 50%;
+  border: 0.3rem solid var(--color-2);
+  top: -17.5%;
+  left: 30%;
+}
+
+.review-card__user {
+  font-size: var(--font-size-12);
+  font-family: var(--font-1);
+  font-weight: 800;
+  color: var(--color-2);
+  margin-bottom: 0.5rem;
+}
+
+.review-card__date {
+  font-size: var(--font-size-8);
+  font-family: var(--font-1);
+  font-weight: 400;
+  color: var(--color-2);
+  margin-bottom: 1rem;
+}
+
+.review-card__text {
+  font-size: var(--font-size-5);
+  font-family: var(--font-2);
+  font-weight: 800;
+  color: var(--color-2);
+}
+.owl-reviews {
+  /* overflow: hidden; */
+}
+.owl-reviews .owl-stage-outer {
+  /* overflow: visible; */
+}
+
+/* GALLERY NAV */
+.owl-reviews .owl-nav {
+  position: relative;
+  /* top: 0;
+  right: 0; */
+}
+
+.owl-reviews .owl-nav .owl-next {
+  position: absolute;
+  bottom: 25rem;
+  right: -6.5rem;
+}
+
+.owl-reviews .owl-nav .owl-prev {
+  position: absolute;
+  bottom: 25rem;
+  left: -6.5rem;
+}
+
+.owl-reviews .owl-nav .owl-next,
+.owl-reviews .owl-nav .owl-prev {
+  width: 5rem;
+  height: 5rem;
+}
+
+.owl-reviews .owl-nav .owl-next,
+.owl-reviews .owl-nav .owl-prev {
+  background: none !important;
+  outline: none !important;
+  opacity: 1;
+}
+
+.owl-reviews .owl-nav .owl-next:hover,
+.owl-reviews .owl-nav .owl-prev:hover {
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.owl-reviews .owl-nav {
+  margin: 0;
+}
