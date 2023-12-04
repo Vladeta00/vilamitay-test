@@ -1,6 +1,6 @@
 // below is the carousel for accomodations
-const nextIcon = '<img src="../imgs/icons/gallery-right.svg" alt="direito">';
-const previousIcon = '<img src="../imgs/icons/gallery-left.svg" alt="escerda">';
+const nextIcon = '<img src="./imgs/icons/gallery-right.svg" alt="direito">';
+const previousIcon = '<img src="./imgs/icons/gallery-left.svg" alt="escerda">';
 
 $(document).ready(function () {
   $(".owl-accom").owlCarousel({
