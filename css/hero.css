@@ -20,6 +20,21 @@
 
   /* position: relative; */
   padding-bottom: 10rem;
+
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/separator/cloud.svg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 10rem;
+  width: 100vw;
+  left: 0;
+  bottom: -4.5%;
+  z-index: 99;
 }
 
 .section-hero {

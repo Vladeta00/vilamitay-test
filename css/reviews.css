@@ -3,13 +3,35 @@
 .reviews {
   background-color: var(--color-3);
 
-  height: 160rem;
+  /* height: 160rem; */
+  position: relative;
 }
+
+/* .reviews::after {
+  content: "FAÇA SUA RESERVA";
+  position: absolute;
+
+  background-color: var(--color-2);
+  padding: 2rem 8rem;
+  border-radius: 2rem;
+
+  font-size: var(--font-size-11);
+  font-family: var(--font-3);
+  font-weight: 800;
+  display: inline;
+  color: var(--color-3);
+
+  transform: translateX(-19.7rem);
+  left: 50%;
+  bottom: -14rem;
+  z-index: 990;
+} */
 
 .reviews-centering__box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 12.8rem;
   margin-bottom: 5rem;
 }
 
@@ -31,6 +53,10 @@
 }
 
 /* REVIEW CARD AND THE GALLERY */
+.reviews-gallery__box {
+  margin-bottom: 9.6rem;
+}
+
 .review-card {
   background-color: var(--color-4);
   padding: 10rem 4rem 4rem 4rem;
@@ -84,12 +110,6 @@
   font-weight: 800;
   color: var(--color-2);
 }
-.owl-reviews {
-  /* overflow: hidden; */
-}
-.owl-reviews .owl-stage-outer {
-  /* overflow: visible; */
-}
 
 /* GALLERY NAV */
 .owl-reviews .owl-nav {
@@ -131,4 +151,26 @@
 
 .owl-reviews .owl-nav {
   margin: 0;
+}
+
+/* make reservation */
+
+.make-reservation::after {
+  content: "FAÇA SUA RESERVA";
+  position: absolute;
+
+  background-color: var(--color-2);
+  padding: 2rem 8rem;
+  border-radius: 2rem;
+
+  font-size: var(--font-size-11);
+  font-family: var(--font-3);
+  font-weight: 800;
+  display: inline;
+  color: var(--color-3);
+
+  transform: translateX(-19.7rem);
+  left: 50%;
+  bottom: -14rem;
+  z-index: 990;
 }

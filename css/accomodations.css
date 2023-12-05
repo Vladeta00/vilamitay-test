@@ -4,7 +4,22 @@
   background-color: var(--color-4);
 
   /* padding: 3rem; */
-  padding-bottom: 40rem;
+  padding-bottom: 12.8rem;
+
+  position: relative;
+}
+
+.accom::after {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/separator/cloud.svg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 10rem;
+  width: 100vw;
+  left: 0;
+  bottom: -1.5%;
+  z-index: 99;
 }
 
 .accom-title {
@@ -17,6 +32,7 @@
   text-align: center;
   line-height: 1;
   margin-bottom: 2rem;
+  padding-top: 12.8rem;
 }
 
 .accom-title__small {
@@ -40,6 +56,10 @@
 
 .card:not(:last-child) {
   margin-bottom: 9.6rem;
+}
+
+.card:not(:first-child) {
+  margin-top: 9.6rem;
 }
 
 .card-box {

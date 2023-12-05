@@ -33,15 +33,59 @@
 
 /* Chimarrao separator */
 
-.chimarrao-separator__box {
+.chimarrao-box {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding-bottom: 9.6rem;
+  /* padding-bottom: 9.6rem; */
+
+  position: relative;
+}
+
+.chimarrao-box:last-child {
+  margin-bottom: 9.6rem;
+}
+
+.chimarrao-box::before,
+.chimarrao-box::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 20%;
+  top: 60%;
+  margin: 0 auto;
+}
+
+/* green */
+.chimarrao-box__green::before {
+  right: 25%;
+  background: var(--color-1);
+}
+
+.chimarrao-box__green::after {
+  left: 25%;
+  background: var(--color-1);
+}
+
+/* white */
+.chimarrao-box__white::before {
+  right: 25%;
+  background: var(--color-3);
+}
+
+.chimarrao-box__white::after {
+  left: 25%;
+  background: var(--color-3);
 }
 
 .chimarrao-separator {
+  display: block;
   width: 7rem;
   height: 7rem;
 }
+
+/* .chimarrao-green::after {
+  content: "";
+  position: absolute;
+} */

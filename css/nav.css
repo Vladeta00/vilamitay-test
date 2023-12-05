@@ -5,6 +5,7 @@
   right: 0;
   width: 100%;
   /* background-size: cover; */
+  z-index: 9999;
 }
 
 .main-nav-box {
