@@ -13,10 +13,10 @@
   content: "";
   position: absolute;
   background-image: url(../imgs/separator/cloud.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   object-fit: cover;
   height: 10rem;
-  width: 100vw;
+  width: 100%;
   left: 0;
   bottom: -2.5%;
   /* box-shadow: var(--shadow-1); */

@@ -4,6 +4,7 @@
   background-color: var(--color-4);
 
   /* padding: 3rem; */
+  padding-top: 12.8rem;
   padding-bottom: 12.8rem;
 
   position: relative;
@@ -13,10 +14,10 @@
   content: "";
   position: absolute;
   background-image: url(../imgs/separator/cloud.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   object-fit: cover;
   height: 10rem;
-  width: 100vw;
+  width: 100%;
   left: 0;
   bottom: -1.5%;
   z-index: 99;
@@ -32,7 +33,6 @@
   text-align: center;
   line-height: 1;
   margin-bottom: 2rem;
-  padding-top: 12.8rem;
 }
 
 .accom-title__small {
