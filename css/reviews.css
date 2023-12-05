@@ -7,26 +7,6 @@
   position: relative;
 }
 
-/* .reviews::after {
-  content: "FAÇA SUA RESERVA";
-  position: absolute;
-
-  background-color: var(--color-2);
-  padding: 2rem 8rem;
-  border-radius: 2rem;
-
-  font-size: var(--font-size-11);
-  font-family: var(--font-3);
-  font-weight: 800;
-  display: inline;
-  color: var(--color-3);
-
-  transform: translateX(-19.7rem);
-  left: 50%;
-  bottom: -14rem;
-  z-index: 990;
-} */
-
 .reviews-centering__box {
   display: flex;
   flex-direction: column;
@@ -112,6 +92,7 @@
 }
 
 /* GALLERY NAV */
+
 .owl-reviews .owl-nav {
   position: relative;
   /* top: 0;
