@@ -29,7 +29,7 @@
   font-family: var(--font-1);
   font-weight: 800;
   color: var(--color-1);
-  margin-bottom: 10rem;
+  /* margin-bottom: 3rem; */
 }
 
 /* REVIEW CARD AND THE GALLERY */
@@ -38,34 +38,46 @@
 }
 
 .review-card {
-  background-color: var(--color-4);
-  padding: 10rem 4rem 4rem 4rem;
+  /* background-color: var(--color-4); */
+  /* padding: 0 4rem 4rem 4rem; */
   border-radius: 3rem;
   max-width: 43rem;
 
   position: relative;
-
-  /* box-shadow: var(--shadow-1); */
 }
 
-/* .review-photo {
-  position: absolute;
-  width: 16rem !important;
-  height: 16rem !important;
-  border-radius: 50%;
-  border: 0.3rem solid var(--color-2);
-  top: -17.5%;
-  left: 30%;
-} */
+.owl-reviews {
+  /* overflow-y: visible !important; */
+}
+
+.owl-reviews .owl-stage-outer {
+  /* overflow-y: visible !important; */
+}
+
+.center-review__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .review-photo {
-  position: absolute;
+  /* position: absolute; */
+  background: var(--color-3);
+  transform: translateY(6rem);
+
   width: 16rem !important;
   height: 16rem !important;
   border-radius: 50%;
   border: 0.3rem solid var(--color-2);
-  top: -17.5%;
+  top: -9rem;
   left: 30%;
+  /* margin-bottom: 2rem; */
+}
+
+.review-info__box {
+  padding: 7rem 6rem 4rem 6rem;
+  background-color: var(--color-4);
+  border-radius: 3rem;
 }
 
 .review-card__user {
@@ -74,6 +86,8 @@
   font-weight: 800;
   color: var(--color-2);
   margin-bottom: 0.5rem;
+
+  position: relative;
 }
 
 .review-card__date {
