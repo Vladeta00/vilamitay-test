@@ -1,6 +1,6 @@
 .header {
   z-index: 988;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 100%;

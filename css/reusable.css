@@ -1,19 +1,5 @@
 /* REUSABLE CSS */
 
-.reserve-button {
-  font-family: var(--font-3);
-  color: var(--color-3);
-  font-size: var(--font-size-9);
-  font-weight: 900;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  padding: 1.6rem 3.2rem;
-  border-radius: 1rem;
-  letter-spacing: 0.2rem;
-  background-color: var(--color-2);
-}
-
 .section-container {
   max-width: 130rem;
   margin: 0 auto;

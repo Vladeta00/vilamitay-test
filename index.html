@@ -25,6 +25,12 @@
     <title>Vila Mitay</title>
   </head>
   <body>
+    <audio
+      class="introsong"
+      loop
+      autoplay
+      src="./music/MilongaAbaixodeMauTempo.mp3"
+    ></audio>
     <header class="header">
       <div class="main-nav-box">
         <nav class="main-nav">
@@ -66,17 +72,19 @@
     <main>
       <section class="hero">
         <div class="section-container section-hero">
-          <h1 class="hero-title" id="our-history">
-            Um refúgio natural perfeito <br />
-            em meio a natureza!
-          </h1>
-          <div class="button-container">
-            <a
-              target="_blank"
-              href="https://www.airbnb.com/users/show/385249216"
-              class="reserve-button hero-button"
-              >FAÇA SUA RESERVA</a
-            >
+          <div class="only-hero">
+            <h1 class="hero-title" id="our-history">
+              Um refúgio natural perfeito <br />
+              em meio a natureza!
+            </h1>
+            <div class="button-container">
+              <a
+                target="_blank"
+                href="https://www.airbnb.com/users/show/385249216"
+                class="hero-reserve__button hero-button"
+                >FAÇA SUA RESERVA</a
+              >
+            </div>
           </div>
           <article class="our-history">
             <div class="our-history__title-photo">
@@ -199,12 +207,6 @@
                   <a href="./imgs/accommodations/loft/loft2.webp">
                     <img
                       src="./imgs/accommodations/loft/loft2.webp"
-                      alt="Foto de Loft do Mirante"
-                    />
-                  </a>
-                  <a href="./imgs/accommodations/loft/loft3.webp">
-                    <img
-                      src="./imgs/accommodations/loft/loft3.webp"
                       alt="Foto de Loft do Mirante"
                     />
                   </a>
@@ -1293,5 +1295,6 @@
     <!-- <script src="./scripts/vilamitayOwlCarouselMultipleRows.js"></script> -->
     <script src="./scripts/jquery.magnific-popup.min.js"></script>
     <script src="./scripts/vilamitayLightBoxGallery.js"></script>
+    <script defer src="./scripts/audiosetting.js"></script>
   </body>
 </html>

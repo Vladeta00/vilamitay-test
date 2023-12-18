@@ -7,8 +7,10 @@
 }
 
 .contact-logo {
-  width: 60rem;
-  height: 60rem;
+  width: 40rem;
+  height: 40rem;
+
+  padding-top: 10rem;
 }
 
 .contact-container {
@@ -45,12 +47,12 @@
 }
 
 .contact-social {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .contact-at {
-  font-size: var(--font-size-15);
+  font-size: var(--font-size-11);
   font-weight: 800;
 
   margin-bottom: 5rem;
@@ -64,25 +66,25 @@
 }
 
 .contact-phone {
-  font-size: var(--font-size-15);
+  font-size: var(--font-size-11);
   font-weight: 800;
 }
 
 .contact-email {
-  font-size: var(--font-size-15);
+  font-size: var(--font-size-11);
   margin-bottom: 5rem;
 }
 
 .contact-address {
   text-align: center;
-  font-size: var(--font-size-15);
+  font-size: var(--font-size-11);
   font-weight: 800;
 
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .google-maps {
-  height: 60rem;
-  width: 120rem;
+  height: 45rem;
+  width: 90rem;
   border: 0.5rem solid var(--color-3);
 }
