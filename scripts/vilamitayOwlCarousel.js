@@ -15,6 +15,7 @@ $(document).ready(function () {
       // breakpoint from 480 up
       700: {
         items: 2,
+        nav: false,
       },
       // breakpoint from 768 up
       1200: {
@@ -40,6 +41,7 @@ $(document).ready(function () {
       // breakpoint from 480 up
       700: {
         items: 2,
+        nav: false,
       },
       // breakpoint from 768 up
       1200: {
@@ -65,6 +67,10 @@ $(document).ready(function () {
       // breakpoint from 480 up
       700: {
         items: 2,
+      },
+      // breakpoint
+      1000: {
+        nav: false,
       },
       // breakpoint from 768 up
       1200: {

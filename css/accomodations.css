@@ -3,7 +3,6 @@
 .accom {
   background-color: var(--color-4);
 
-  /* padding: 3rem; */
   padding-top: 12.8rem;
   padding-bottom: 12.8rem;
 
@@ -66,8 +65,6 @@
   display: grid;
   grid-template-rows: 2fr 0.5fr;
 
-  /* min-width: 100%; */
-  /* may remove later */
   max-height: 74.7rem;
 
   padding: 4rem 6rem;
@@ -77,7 +74,6 @@
   display: grid;
   grid-template-columns: 1.5fr 1fr;
 
-  /* padding: 1rem; */
   margin-bottom: 2rem;
 
   position: relative;
@@ -87,7 +83,6 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
 
-  /* padding: 1rem; */
   margin-bottom: 2rem;
 
   position: relative;
@@ -102,7 +97,6 @@
 .card-info__box {
   display: flex;
   align-items: end;
-  /* position: relative; */
 }
 
 .card-info__details {
@@ -115,14 +109,13 @@
   gap: 4rem;
   margin-left: 3rem;
 
-  /* grid-template-columns: 1fr 1fr; */
   list-style: none;
 }
 
 .card-info__icontext {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+
   justify-content: center;
   gap: 1rem;
   list-style: none;
@@ -234,7 +227,6 @@
 .accom-gallery {
   min-width: 100%;
 
-  /* max-width: 40rem; */
   padding: 0 3rem;
 }
 
@@ -246,8 +238,6 @@
 
 .owl-accom .owl-nav {
   position: relative;
-  /* top: 0;
-  right: 0; */
 }
 
 .owl-accom .owl-nav .owl-next {
@@ -280,8 +270,3 @@
   outline: none;
   transition: all 0.2s ease;
 }
-
-/* .owl-accom .owl-nav {
-  overflow: hidden;
-  height: 0px;
-} */
