@@ -1,19 +1,19 @@
 @font-face {
   font-family: "AlexBrush-Regular";
-  src: url(../fonts/AlexBrush-Regular.ttf);
+  src: url("../fonts/AlexBrush-Regular.ttf");
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url(../fonts/Helvetica.ttc);
+  src: url("../fonts/Helvetica.ttc");
 }
 
 @font-face {
   font-family: "MinionPro-Regular";
-  src: url(../fonts/MinionPro-Regular.otf);
+  src: url("../fonts/MinionPro-Regular.otf");
 }
 
 @font-face {
   font-family: "SukhumvitSet";
-  src: url(../fonts/SukhumvitSet.ttc);
+  src: url("../fonts/SukhumvitSet.ttc");
 }

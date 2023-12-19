@@ -270,3 +270,12 @@
   outline: none;
   transition: all 0.2s ease;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1400px) {
+  .owl-accom .owl-stage .owl-item a img {
+    width: 33rem;
+    height: 20rem;
+  }
+}

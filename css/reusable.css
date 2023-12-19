@@ -7,6 +7,10 @@
   /* padding: 0 2rem; */
 }
 
+.section-padding {
+  padding: 0 2rem;
+}
+
 .bolded {
   color: var(--color-2);
   font-family: var(--font-1);

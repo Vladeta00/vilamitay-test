@@ -13,12 +13,13 @@ $(document).ready(function () {
         items: 1,
       },
       // breakpoint from 480 up
-      700: {
-        items: 2,
-        nav: false,
+      1000: {
+        items: 3,
+        nav: true,
+        margin: 5,
       },
       // breakpoint from 768 up
-      1200: {
+      1460: {
         items: 4,
         nav: true,
       },
