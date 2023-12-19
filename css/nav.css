@@ -33,7 +33,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   list-style: none;
 }
 
@@ -52,13 +52,14 @@
   position: relative;
 }
 
-.nav-link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -1rem;
-  height: 100%;
+.nav-link {
   border-right: 0.2rem solid var(--color-2);
+  padding: 0 0.5rem;
+}
+
+.nav-link__box:last-child a {
+  border-right: 0;
+  padding-left: 0.5rem;
 }
 
 /* Logo in navigation */
@@ -94,3 +95,19 @@
 }
 
 /* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1340px) {
+  .nav-socials img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .nav-link,
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: var(--font-size-4);
+  }
+  .nav-logo img {
+    width: 15rem;
+    height: 7.5rem;
+  }
+}

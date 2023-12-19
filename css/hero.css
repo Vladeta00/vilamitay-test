@@ -33,7 +33,7 @@
   height: 10rem;
   width: 100%;
   left: 0;
-  bottom: -4%;
+  bottom: -5.7rem;
   z-index: 99;
 }
 
@@ -94,13 +94,13 @@
   position: relative;
 }
 
-.hero-title__our {
+/* .hero-title__our {
   text-transform: uppercase;
   font-size: var(--font-size-13);
   font-family: var(--font-1);
 
   color: var(--color-3);
-}
+} */
 
 .hero-title__history {
   font-size: var(--font-size-18);
@@ -139,4 +139,43 @@
 .hero-photo {
   width: 65rem;
   border: 0.4rem solid var(--color-3);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1340px) {
+  .hero-title {
+    margin-bottom: 5rem;
+    font-size: 10rem;
+  }
+
+  .hero-reserve__button {
+    font-size: var(--font-size-10);
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+  }
+
+  .hero-title__history {
+    font-size: var(--font-size-17);
+  }
+
+  .hero-title__history::after {
+    content: "NOSSA";
+
+    position: absolute;
+    font-size: var(--font-size-12);
+
+    top: -15%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hero-text {
+    font-size: var(--font-size-6);
+  }
+
+  .hero-photo {
+    width: 100%;
+  }
 }

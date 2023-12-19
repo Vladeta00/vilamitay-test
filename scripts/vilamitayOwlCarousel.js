@@ -18,8 +18,8 @@ $(document).ready(function () {
         nav: true,
         margin: 5,
       },
-      // breakpoint from 768 up
-      1460: {
+      // breakpoint from 1430 up
+      1430: {
         items: 4,
         nav: true,
       },
@@ -41,11 +41,11 @@ $(document).ready(function () {
       },
       // breakpoint from 480 up
       700: {
-        items: 2,
-        nav: false,
+        items: 3,
+        nav: true,
       },
       // breakpoint from 768 up
-      1200: {
+      1430: {
         items: 4,
         nav: true,
       },
@@ -59,6 +59,10 @@ $(document).ready(function () {
     // loop: true,
     margin: 30,
     dots: false,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 10000,
+    loop: true,
     navText: [previousIcon, nextIcon],
     responsive: {
       // breakpoint from 0 up
@@ -74,7 +78,7 @@ $(document).ready(function () {
         nav: false,
       },
       // breakpoint from 768 up
-      1200: {
+      1430: {
         items: 3,
         nav: true,
       },
