@@ -336,12 +336,40 @@
   .make-reservation::after {
     content: "FAÇA SUA RESERVA";
     position: absolute;
-    padding: 1.2rem 3rem;
+    padding: 1rem 2.4rem;
     border-radius: 2rem;
-    font-size: var(--font-size-5);
+    font-size: var(--font-size-4);
     transform: translateX(-9rem);
     left: 20rem;
     bottom: -12rem;
+    z-index: 990;
+  }
+}
+@media screen and (max-width: 370px) {
+  .make-reservation::after {
+    content: "FAÇA SUA RESERVA";
+    position: absolute;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    font-size: var(--font-size-3);
+    transform: translateX(-9rem);
+
+    left: 19rem;
+    bottom: -11.4rem;
+    z-index: 990;
+  }
+}
+@media screen and (max-width: 328px) {
+  .make-reservation::after {
+    content: "FAÇA SUA RESERVA";
+    position: absolute;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2rem;
+    font-size: var(--font-size-2);
+    transform: translateX(-9rem);
+
+    left: 19rem;
+    bottom: -11.4rem;
     z-index: 990;
   }
 }
