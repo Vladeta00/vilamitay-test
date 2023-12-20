@@ -2,6 +2,11 @@
 const nextIcon = '<img src="./imgs/icons/gallery-right.svg" alt="direito">';
 const previousIcon = '<img src="./imgs/icons/gallery-left.svg" alt="escerda">';
 
+const nextIconRed =
+  '<img src="./imgs/icons/gallery-right-red.svg" alt="direito">';
+const previousIconRed =
+  '<img src="./imgs/icons/gallery-left-red.svg" alt="escerda">';
+
 $(document).ready(function () {
   $(".owl-accom").owlCarousel({
     margin: 10,
@@ -11,6 +16,12 @@ $(document).ready(function () {
       // breakpoint from 0 up
       0: {
         items: 1,
+      },
+      // breakpoint
+      500: {
+        items: 2,
+        nav: true,
+        margin: 5,
       },
       // breakpoint from 480 up
       1000: {
@@ -37,10 +48,11 @@ $(document).ready(function () {
     responsive: {
       // breakpoint from 0 up
       0: {
-        items: 1,
+        items: 2,
+        nav: true,
       },
       // breakpoint from 480 up
-      700: {
+      900: {
         items: 3,
         nav: true,
       },
@@ -63,19 +75,22 @@ $(document).ready(function () {
     autoplayHoverPause: true,
     autoplayTimeout: 10000,
     loop: true,
-    navText: [previousIcon, nextIcon],
+    navText: [previousIconRed, nextIconRed],
     responsive: {
       // breakpoint from 0 up
       0: {
-        items: 1,
+        items: 2,
+        nav: true,
       },
       // breakpoint from 480 up
-      700: {
+      1000: {
         items: 2,
+        nav: true,
       },
       // breakpoint
-      1000: {
-        nav: false,
+      1250: {
+        nav: true,
+        items: 3,
       },
       // breakpoint from 768 up
       1430: {

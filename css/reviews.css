@@ -157,5 +157,46 @@
 
 /* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1250px) {
+  /* .review-info__box {
+    padding: 7rem 9rem 4rem 9rem;
+  } */
+  .review-card {
+    max-width: 100%;
+  }
+  .owl-reviews .owl-nav .owl-next {
+    position: absolute;
+    bottom: 25rem;
+    right: 0;
+  }
+
+  .owl-reviews .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 25rem;
+    left: 0;
+  }
+
+  .owl-reviews .owl-nav .owl-next,
+  .owl-reviews .owl-nav .owl-prev {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .owl-reviews .owl-nav .owl-next {
+    position: absolute;
+    bottom: 30rem;
+    right: 0;
+  }
+
+  .owl-reviews .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 30rem;
+    left: 0;
+  }
+
+  .review-card {
+    max-width: 100%;
+  }
 }

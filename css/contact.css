@@ -88,3 +88,10 @@
   width: 90rem;
   border: 0.5rem solid var(--color-3);
 }
+
+@media screen and (max-width: 1000px) {
+  .google-maps {
+    height: 35rem;
+    width: 70rem;
+  }
+}

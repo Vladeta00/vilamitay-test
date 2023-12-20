@@ -191,3 +191,25 @@
     height: 4rem;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .commonareas-title {
+    font-size: var(--font-size-16);
+  }
+
+  .commonareas-text {
+    font-size: var(--font-size-7);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .commonareas-icons__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .commmonareas-icons {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: first baseline;
+  }
+}
