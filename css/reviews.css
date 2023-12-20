@@ -320,4 +320,15 @@
     width: 12rem !important;
     height: 12rem !important;
   }
+  .make-reservation::after {
+    content: "FAÇA SUA RESERVA";
+    position: absolute;
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: var(--font-size-5);
+    transform: translateX(-9rem);
+    left: 20rem;
+    bottom: -12rem;
+    z-index: 990;
+  }
 }

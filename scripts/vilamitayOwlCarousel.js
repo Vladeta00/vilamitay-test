@@ -16,6 +16,10 @@ $(document).ready(function () {
       // breakpoint from 0 up
       0: {
         items: 1,
+        nav: false,
+      },
+      420: {
+        items: 1,
         nav: true,
       },
       // breakpoint
