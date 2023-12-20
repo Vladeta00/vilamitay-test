@@ -941,9 +941,17 @@
   .mobile-reserve-btn::after {
     font-size: var(--font-size-2);
     padding: 0.6rem 1.2rem;
-    bottom: -4rem;
+    bottom: -3.4rem;
     left: 20%;
     z-index: 16;
+  }
+  .middle-card-title {
+    font-size: var(--font-size-11);
+  }
+  .card-title-small__middle {
+    font-size: var(--font-size-3);
+    top: 10%;
+    left: 30%;
   }
 }
 
@@ -973,5 +981,20 @@
     font-size: var(--font-size-3);
     top: 8%;
     left: 30%;
+  }
+  .middle-card-title {
+    font-size: var(--font-size-7);
+  }
+  .card-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .card-info__text {
+    font-size: 0.8rem;
+  }
+  .card-title-small__middle {
+    font-size: var(--font-size-2);
+    top: 10%;
+    left: 25%;
   }
 }

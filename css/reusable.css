@@ -96,3 +96,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .chimarrao-separator {
+    width: 5rem;
+    height: 5rem;
+  }
+}
