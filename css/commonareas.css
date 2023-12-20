@@ -15,10 +15,10 @@
   background-image: url(../imgs/separator/cloud.svg);
   background-repeat: repeat-x;
   object-fit: cover;
-  height: 10rem;
+  height: 3rem;
   width: 100%;
   left: 0;
-  bottom: -6.2rem;
+  bottom: -1.6rem;
   z-index: 990;
 }
 
@@ -190,6 +190,11 @@
     width: 4rem;
     height: 4rem;
   }
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -199,6 +204,11 @@
 
   .commonareas-text {
     font-size: var(--font-size-7);
+  }
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
   }
 }
 
@@ -211,6 +221,11 @@
   .commmonareas-icons {
     grid-template-columns: repeat(2, 1fr);
     justify-items: first baseline;
+  }
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
   }
 }
 @media screen and (max-width: 550px) {
@@ -245,5 +260,17 @@
     padding-bottom: 6.4rem;
 
     position: relative;
+  }
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.9rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
   }
 }

@@ -19,10 +19,10 @@
   background-image: url(../imgs/separator/cloud.svg);
   background-repeat: repeat-x;
   object-fit: cover;
-  height: 10rem;
+  height: 3rem;
   width: 100%;
   left: 0;
-  bottom: -5.7rem;
+  bottom: -1.6rem;
   z-index: 99;
 }
 
@@ -170,6 +170,11 @@
   .hero-photo {
     width: 100%;
   }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
+  }
 }
 
 @media screen and (max-width: 1130px) {
@@ -193,6 +198,11 @@
   }
   .hero-text {
     font-size: var(--font-size-5);
+  }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
   }
 }
 
@@ -223,6 +233,11 @@
   .hero-text {
     font-size: var(--font-size-4);
   }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -231,6 +246,11 @@
   }
   .hero-text {
     font-size: 1.3rem;
+  }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
   }
 }
 
@@ -247,6 +267,11 @@
   }
   .our-history {
     grid-template-columns: 1fr 1fr;
+  }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.7rem;
   }
 }
 
@@ -276,17 +301,60 @@
     padding: 1rem 2rem;
     border-radius: 1rem;
   }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.6rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .hero-title {
     margin-bottom: 4rem;
     padding-top: 20rem;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .hero-reserve__button {
     font-size: var(--font-size-3);
     padding: 1rem 2rem;
     border-radius: 1rem;
+  }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -1.8rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hero-title {
+    margin-bottom: 4rem;
+    padding-top: 20rem;
+    font-size: 4rem;
+  }
+  .hero-reserve__button {
+    font-size: var(--font-size-4);
+    padding: 1.4rem 2.8rem;
+    border-radius: 1rem;
+  }
+  .hero-title__history {
+    font-size: var(--font-size-16);
+    margin-bottom: 1rem;
+  }
+  .hero-title__history::after {
+    font-size: var(--font-size-7);
+    left: 12%;
+  }
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -2rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .hero::after {
+    width: 100%;
+    left: 0;
+    bottom: -2.1rem;
   }
 }

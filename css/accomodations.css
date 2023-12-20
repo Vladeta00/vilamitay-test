@@ -15,10 +15,10 @@
   background-image: url(../imgs/separator/cloud.svg);
   background-repeat: repeat-x;
   object-fit: cover;
-  height: 10rem;
+  height: 3rem;
   width: 100%;
   left: 0;
-  bottom: -5.5rem;
+  bottom: -1.5rem;
   z-index: 99;
 }
 
@@ -279,6 +279,11 @@
     width: 100%;
     height: 22rem;
   }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
+  }
 }
 
 /* 1340px */
@@ -290,6 +295,11 @@
   .card-reservation-box__middle {
     width: 54rem;
     height: 33rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 
@@ -324,6 +334,11 @@
     position: absolute;
     bottom: 9rem;
     left: -5rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 
@@ -379,6 +394,11 @@
   .card-reservation__btn {
     font-size: var(--font-size-6);
     padding: 1rem 3rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 
@@ -436,6 +456,11 @@
     height: 25rem;
     min-width: 100%;
   }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -446,6 +471,11 @@
   .accom-title__small {
     font-size: var(--font-size-8);
     margin-bottom: 5rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 
@@ -499,6 +529,11 @@
   }
   .card:not(:first-child) {
     margin-top: 4.8rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 
@@ -555,6 +590,11 @@
   }
   .card-info__text {
     font-size: var(--font-size-4);
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 @media screen and (max-width: 600px) {
@@ -617,6 +657,11 @@
     position: absolute;
     bottom: 11rem;
     left: -5rem;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -1.5rem;
+    z-index: 99;
   }
 }
 @media screen and (max-width: 540px) {
@@ -701,6 +746,11 @@
     display: grid;
     grid-template-rows: 1fr;
   }
+  .accom::after {
+    left: 0;
+    bottom: -1.7rem;
+    z-index: 99;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -746,13 +796,13 @@
 
   .card-title-small {
     font-size: var(--font-size-4);
-    top: 10%;
+    top: 15%;
     left: 50%;
   }
 
   .card-title-small__middle {
     font-size: var(--font-size-4);
-    top: 3%;
+    top: 8%;
     left: 30%;
   }
 
@@ -862,5 +912,10 @@
     bottom: -4rem;
     left: 20%;
     z-index: 16;
+  }
+  .accom::after {
+    left: 0;
+    bottom: -2.1rem;
+    z-index: 99;
   }
 }

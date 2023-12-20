@@ -156,6 +156,19 @@
 }
 
 /* RESPONSIVE DESIGN */
+@media screen and (max-width: 1480px) {
+  .owl-reviews .owl-nav .owl-next {
+    position: absolute;
+    bottom: 25rem;
+    right: 0;
+  }
+
+  .owl-reviews .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 25rem;
+    left: 0;
+  }
+}
 
 @media screen and (max-width: 1250px) {
   /* .review-info__box {
