@@ -271,6 +271,13 @@
   .commonareas::after {
     width: 100%;
     left: 0;
-    bottom: -1.6rem;
+    bottom: -2.2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .commonareas::after {
+    width: 100%;
+    left: 0;
+    bottom: -2.4rem;
   }
 }
