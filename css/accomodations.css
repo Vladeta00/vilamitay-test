@@ -13,7 +13,7 @@
   content: "";
   position: absolute;
   background-image: url(../imgs/separator/cloud.svg);
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   object-fit: cover;
   height: 3rem;
   width: 100%;
