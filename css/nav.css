@@ -124,4 +124,7 @@
   .main-nav {
     justify-content: space-between;
   }
+  .main-nav-box::before {
+    display: none;
+  }
 }

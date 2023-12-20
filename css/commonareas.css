@@ -213,3 +213,37 @@
     justify-items: first baseline;
   }
 }
+@media screen and (max-width: 550px) {
+  .commonareas-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .commonareas-icon__text {
+    font-size: var(--font-size-4);
+  }
+  .commonareas-text {
+    font-size: var(--font-size-5);
+  }
+  .commonareas-title {
+    font-size: var(--font-size-13);
+  }
+  .commonarea-pet__title {
+    font-size: var(--font-size-7);
+  }
+
+  .commonarea-pet__undertitle {
+    font-size: var(--font-size-4);
+  }
+
+  .commonarea-pet__text {
+    font-size: var(--font-size-4);
+  }
+  .commonareas {
+    background-color: var(--color-1);
+
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+
+    position: relative;
+  }
+}

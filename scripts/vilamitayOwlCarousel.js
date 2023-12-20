@@ -16,9 +16,14 @@ $(document).ready(function () {
       // breakpoint from 0 up
       0: {
         items: 1,
+        nav: true,
       },
       // breakpoint
       500: {
+        items: 1,
+        nav: true,
+      },
+      600: {
         items: 2,
         nav: true,
         margin: 5,
@@ -48,6 +53,10 @@ $(document).ready(function () {
     responsive: {
       // breakpoint from 0 up
       0: {
+        items: 1,
+        nav: true,
+      },
+      500: {
         items: 2,
         nav: true,
       },
@@ -71,16 +80,27 @@ $(document).ready(function () {
     // loop: true,
     margin: 30,
     dots: false,
-    autoplay: true,
-    autoplayHoverPause: true,
-    autoplayTimeout: 10000,
+    // autoplay: true,
+    // autoplayHoverPause: true,
+    // autoplayTimeout: 10000,
     loop: true,
     navText: [previousIconRed, nextIconRed],
     responsive: {
       // breakpoint from 0 up
       0: {
-        items: 2,
-        nav: true,
+        items: 1,
+        dots: true,
+        center: true,
+      },
+      500: {
+        items: 1,
+        dots: true,
+        center: true,
+      },
+      800: {
+        items: 1,
+        dots: true,
+        center: true,
       },
       // breakpoint from 480 up
       1000: {

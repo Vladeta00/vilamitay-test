@@ -186,17 +186,138 @@
 @media screen and (max-width: 1000px) {
   .owl-reviews .owl-nav .owl-next {
     position: absolute;
-    bottom: 30rem;
+    bottom: 20rem;
     right: 0;
   }
 
   .owl-reviews .owl-nav .owl-prev {
     position: absolute;
-    bottom: 30rem;
+    bottom: 20rem;
     left: 0;
   }
 
   .review-card {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .owl-reviews .owl-nav .owl-next {
+    position: absolute;
+    bottom: 25rem;
+    right: 0;
+  }
+
+  .owl-reviews .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 25rem;
+    left: 0;
+  }
+
+  .review-card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .reviews-title {
+    font-size: var(--font-size-16);
+  }
+
+  .reviews-text {
+    font-size: var(--font-size-10);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .make-reservation::after {
+    content: "FAÇA SUA RESERVA";
+    position: absolute;
+
+    padding: 1.6rem 4rem;
+    border-radius: 2rem;
+
+    font-size: var(--font-size-7);
+
+    transform: translateX(-12.4rem);
+    left: 50%;
+    bottom: -13rem;
+    z-index: 990;
+  }
+  .review-card__user {
+    font-size: var(--font-size-13);
+  }
+
+  .review-card__date {
+    font-size: var(--font-size-9);
+  }
+
+  .review-card__text {
+    font-size: var(--font-size-6);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .make-reservation::after {
+    content: "FAÇA SUA RESERVA";
+    position: absolute;
+
+    padding: 1.6rem 4rem;
+    border-radius: 2rem;
+
+    font-size: var(--font-size-4);
+
+    transform: translateX(-9rem);
+    left: 50%;
+    bottom: -12.5rem;
+    z-index: 990;
+  }
+  .review-card__user {
+    font-size: var(--font-size-12);
+  }
+
+  .review-card__date {
+    font-size: var(--font-size-8);
+  }
+
+  .review-card__text {
+    font-size: var(--font-size-5);
+  }
+  .reviews-title {
+    font-size: var(--font-size-14);
+  }
+  .reviews-text {
+    font-size: var(--font-size-5);
+  }
+  .review-photo {
+    width: 14rem !important;
+    height: 14rem !important;
+  }
+  .reviews-centering__box {
+    margin-top: 6.4rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .review-card__user {
+    font-size: var(--font-size-10);
+  }
+
+  .review-card__date {
+    font-size: var(--font-size-6);
+  }
+
+  .review-card__text {
+    font-size: var(--font-size-3);
+  }
+  .reviews-title {
+    font-size: var(--font-size-11);
+  }
+  .reviews-text {
+    font-size: var(--font-size-4);
+  }
+  .review-photo {
+    width: 12rem !important;
+    height: 12rem !important;
   }
 }
