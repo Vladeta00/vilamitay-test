@@ -98,6 +98,10 @@
 
 /* RESPONSIVE DESIGN */
 
+.nav-logo__white {
+  display: none;
+}
+
 @media screen and (max-width: 1340px) {
   .nav-socials img {
     width: 2.4rem;
@@ -126,5 +130,17 @@
   }
   .main-nav-box::before {
     display: none;
+  }
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-logo__white {
+    display: inline-block;
+  }
+  .nav-logo__white {
+    padding-top: 4rem;
+    width: 24rem;
+    height: 24rem;
   }
 }

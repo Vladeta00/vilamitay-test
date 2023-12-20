@@ -701,7 +701,7 @@
 
 @media screen and (max-width: 420px) {
   .card-info__iconstexts {
-    column-gap: 9rem;
+    column-gap: 7rem;
     row-gap: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
