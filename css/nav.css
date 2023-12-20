@@ -144,3 +144,9 @@
     height: 24rem;
   }
 }
+@media screen and (max-width: 700px) {
+  .logo-white {
+    width: 12rem;
+    height: 12rem;
+  }
+}

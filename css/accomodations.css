@@ -692,11 +692,11 @@
     height: 2.4rem;
   }
   .accom-title {
-    font-size: var(--font-size-12);
+    font-size: var(--font-size-13);
   }
 
   .accom-title__small {
-    font-size: var(--font-size-5);
+    font-size: var(--font-size-6);
     margin-bottom: 0;
   }
   .card-title {
@@ -783,11 +783,11 @@
     height: 2.2rem;
   }
   .accom-title {
-    font-size: var(--font-size-12);
+    font-size: var(--font-size-13);
   }
 
   .accom-title__small {
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-5);
     margin-bottom: 0;
   }
   .card-title {
@@ -918,6 +918,16 @@
     left: 0;
     bottom: -2.1rem;
     z-index: 99;
+  }
+}
+@media screen and (max-width: 390px) {
+  .accom-title {
+    font-size: var(--font-size-12);
+  }
+
+  .accom-title__small {
+    font-size: var(--font-size-4);
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 350px) {
